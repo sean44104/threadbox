@@ -10,7 +10,7 @@ This design replaces the need to screw directly into the material of the shell w
 
 If you would like, you can also simply and easily add a little drop of glue into each of the holes for the hex nuts. This will keep the parts in place permanently and allow you to take apart your controller and put it back together without ever fiddling with the back shell. This way, you can install a non-slip pad onto the bottom of your threadbox, covering up the holes and improving the look and feel of your controller, without having to remove the pad when you want to take the controller apart.
 
-![image](https://raw.githubusercontent.com/sean44104/threadbox/main/Images/hex.png)
+![image](https://github.com/sean44104/threadbox/blob/master/Images/hex.png)
 
 ### Hardware Purchase Links
 

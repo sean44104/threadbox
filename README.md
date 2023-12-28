@@ -1,19 +1,29 @@
-# Flatbox: Low profile hitbox-layout fightstick
+# Threadbox
 
-This repository contains 3D-printable models, PCB design files and code needed to make an arcade controller that looks like this:
+This repository contains 3D-printable models to make an arcade controller shell that looks like this:
 
-![Assembled Flatbox](hardware-rev2/images/Flatbox-rev2b-finished-product.jpg)
+![image](https://raw.githubusercontent.com/sean44104/threadbox/main/Images/render1.png)
 
-There are five major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
+![image](https://raw.githubusercontent.com/sean44104/threadbox/main/Images/back.png)
 
-version | [rev1.1](hardware-rev1.1) | [rev2](hardware-rev2) | [rev3](hardware-rev3) | [rev4](hardware-rev4) | [rev5](hardware-rev5)
-------- | ------------------------- | --------------------- | --------------------- | --------------------- | ---------------------
-case dimensions | 218x128x10mm | 218x130x10mm | 218x130x10mm | 218x130x10mm | 218x126x10mm
-compatibility (using suggested firmware) | PC, PS3 | PC, PS3 | PC, PS3, PS4 | PC, PS3, PS4\*, Switch | PC, PS3, PS4\*, Switch
-add-on board | Arduino Pro Micro | - | [Brook PS3/PS4](https://www.brookaccessory.com/detail/58690501/) | - | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
-onboard chip | - | ATmega32U4 | - | RP2040 | -
-port | micro USB | USB-C | USB-C | USB-C | USB-C
-SMT assembly required | no | yes | yes | yes | no
-firmware | [ATmega32U4](firmware-atmega32u4) | [ATmega32U4](firmware-atmega32u4) | [Brook](https://www.brookaccessory.com/download/PS3/) | [GP2040-CE](https://gp2040-ce.info/) | [GP2040-CE](https://gp2040-ce.info/)
+This design replaces the need to screw directly into the material of the shell with a system of hex nuts and torx screws. By making the screws come out of the front, nice and flush, the two halves of the shell are pressed together by the hardware. This way, no glueing, post processing, modding, or any kind of work is needed to fasten your shell together! When you are ready to assemble your controller, simply drop a hex nut into one of the holes on the back shell, hold it in place with your finger, and screw in from the other side.
 
-\* - with caveats
+If you would like, you can also simply and easily add a little drop of glue into each of the holes for the hex nuts. This will keep the parts in place permanently and allow you to take apart your controller and put it back together without ever fiddling with the back shell. This way, you can install a non-slip pad onto the bottom of your threadbox, covering up the holes and improving the look and feel of your controller, without having to remove the pad when you want to take the controller apart.
+
+![image](https://raw.githubusercontent.com/sean44104/threadbox/main/Images/hex.png)
+
+### Hardware Purchase Links
+
+Purchase the torx screws here:
+
+https://www.mcmaster.com/90236a106/
+
+Purchase the hex nuts here:
+
+https://www.mcmaster.com/90592A075/
+
+### Extra Images
+
+![image](https://raw.githubusercontent.com/sean44104/threadbox/main/Images/render2.png)
+
+![image](https://raw.githubusercontent.com/sean44104/threadbox/main/Images/screwhole.png)
